@@ -17,16 +17,17 @@
 
 
  #content {
-   background-color: #F2F5A9
+   background-color: #E3F6CE;
    width: 100%;
-   heigth:700px;
+   heigth: 700px;
    text-aling: center;
    padding: 10px;
  }
 
 #h1 {
-  font-size 70px;
+  font-size: 60px;
   margin:50px 0 10px;
+  text-align: center;
 }
 #h2 {
   font-size 35px;
@@ -35,12 +36,26 @@
   font-family:'Courier New' , Courier, monospace;
 }
 #button {
-  background-color: #FA5858;
+  background-color: #F78181;
   border: none;
-  color: white;
+  color: black;
   padding: 15px 32 px;
-  text-aling: center;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+#h2:after{
+  content: 'I';
+  margin-letf: 5px;
+  opacity: 1;
+  animation: pisca.7s infinite;
+}
+@keyframes pisca{
+  0% 100%{
+      opacity: 1;
+  }
+  50% {
+    opacity:0;
+  }
 }
