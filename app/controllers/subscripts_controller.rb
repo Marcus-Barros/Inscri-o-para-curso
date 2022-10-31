@@ -1,0 +1,2 @@
+class SubscriptsController < ApplicationController
+end
